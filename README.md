@@ -21,7 +21,9 @@ By having more people using one vehicle, carpooling reduces each person’s trav
 * [Devise][2]
 * Asynchronous tasks with [Sucker Punch][9]
 * Facebook Open Graph / Rest API with [Koala][11]
-* Google Maps API
+* [OpenRouteService API][17]
+* [Nominatim][18] (Open Street Map Geocoder)
+* [Leaflet library][19]
 * [RSpec][12]
 * [Heroku][14] Cloud Application Platform
 * [Multi-Environment configuration][15]
@@ -42,22 +44,9 @@ By having more people using one vehicle, carpooling reduces each person’s trav
  [14]: https://www.heroku.com/
  [15]: https://github.com/lukeredpath/simpleconfig
  [16]: https://github.com/airbrake/airbrake
-
-A working demo is available at https://icare.diowa.com/
-
-
-
-## Name and logo
-
-**icare** name and logo are temporary. **icare** is a portmanteau of "I care", "Car" and "Environment". No copyright violation is intended.
-
-
-
-## Roadmap
-
-Immediate: Check out our [To Do](https://github.com/diowa/icare/wiki/To-Do) list.
-Long-term: TODO
-
+ [17]: https://openrouteservice.org/
+ [18]: https://nominatim.openstreetmap.org/
+ [19]: https://leafletjs.com/
 
 
 ## Internationalization (i18n)
@@ -90,6 +79,10 @@ If you are interested in feature development, we have priorities. Check out our 
 + https://github.com/cesidio
 + https://twitter.com/cesid
 
+**Clément Foissard**
+
++ https://github.com/TheRaccoon00
+
 
 
 ## Copyright and license
@@ -99,11 +92,9 @@ If you are interested in feature development, we have priorities. Check out our 
 Check the LICENSE file for more information
 
 
-
 ## Thanks
 
 Special thanks to all developers of open source libraries used in this project.
-
 
 
 ## Docker (Experimental)
@@ -137,9 +128,3 @@ rails s -b 'ssl://0.0.0.0:3443?key=docker/nginx/ssl/app_key.pem&cert=docker/ngin
 ```
 
 icare will be accessible on `https://localhost:3443`
-
-## Donations
-
-If you like this project or you are considering to use it (or any part of it) for commercial purposes, please make a donation to the authors.
-
-[![Donate once-off to this project using Bitcoin](https://img.shields.io/badge/bitcoin-donate-blue.svg)](bitcoin:1L6sqoG8xXhYziH9NGjPzgR1dEP2SbJrfM)
